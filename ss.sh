@@ -94,7 +94,6 @@ if [[ -f /etc/sb.bak.config.json ]];then
 	rm /etc/sb.bak.config.json
 	echo -e "升级完成,如需重新配置请自行备份并移除 ${SING_BOX_PATH}/config.json"
 	service sing-box restart
-	exit
 fi
 
 reality_inbound() {
